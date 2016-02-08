@@ -1851,7 +1851,7 @@ font-size:9px;
 }
 /*===== login=========*/
 .sectionLogin{
-background: url(http://lorempixel.com/1920/1920/city/9/) no-repeat center center fixed;;
+background: url('img/dotted_back.jpg') ;
  	
  	 
  width: 100%;
@@ -1882,7 +1882,14 @@ background-image: url('img/full-slider/dotted-worldmap-1024x51r.png');
     -ms-transition: all 0.5s ease-in 0s;
     -o-transition: all 0.5s ease-in 0s;
   }
-
+  
+.userLabel{
+	    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 29px;
+	
+}
   .sidebar-nav {
     position: absolute;
     top: 0;
@@ -1978,5 +1985,5 @@ color: #fff !important;
    
       }
                   
-      }
-      }
+    
+     
