@@ -1479,11 +1479,14 @@ color: #ffffff;
 	color:#fff!important;
 }
 .navbar-default .navbar-nav > li > a:active{
-	color:blue!important;
+	
 }
 .active a{
-	color:blue!important;
 	
+	
+}
+.help-block{
+font-size:9px;
 }
 
 /*=============/////////////////////
@@ -1835,6 +1838,9 @@ color: #ffffff;
  /*==============////////////
   
   End Sign up
+  
+  
+  
   /*======== MYAccount ==========////////*/
 #sectionProfile{
 	
@@ -1846,53 +1852,134 @@ color: #ffffff;
  	
 
 }
-
- .menu {
-  list-style: none;
-  line-height: 42px;
-  margin: auto;
-  padding-left: 0;
-  width: 15em;
+/*===== login=========*/
+.sectionLogin{
+background: url(http://lorempixel.com/1920/1920/city/9/) no-repeat center center fixed;;
+ 	
+ 	 
+ width: 100%;
+ min-height:650px;
+}
+/* Section map*/
+.sectionMap_test{
+background-image: url('img/full-slider/dotted-worldmap-1024x51r.png');
+    width: 100%;
+    min-height: 523px;
+    background-repeat: no-repeat;
+    background-position: center;;
 }
 
-.menu a {
-  background: url(icons.png) no-repeat left top;
-  color: #ddd;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: block;
-  padding-left: 3em;
-  width: 100%;
+/* side bar menu*/
+  #sidebar-wrapper {
+    margin-right: -250px;
+    left: 0;
+    width: 250px;
+    background: rgb(0,0,0);
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 9999;
+    transition: all 0.5s ease-in 0s;
+    -webkit-transition: all 0.5s ease-in 0s;
+    -moz-transition: all 0.5s ease-in 0s;
+    -ms-transition: all 0.5s ease-in 0s;
+    -o-transition: all 0.5s ease-in 0s;
+  }
+
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar-nav li {
+    line-height: 50px;
+    text-indent: 20px;
+  }
+
+  .sidebar-nav li a {
+    color: #999999;
+    display: block;
+    text-decoration: none;
+  }
+
+  .sidebar-nav li a:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    text-decoration: none;
+  }
+
+  .sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+  }
+
+  .sidebar-nav > .sidebar-brand {
+    height: 55px;
+    line-height: 55px;
+    font-size: 18px;
+  }
+
+  .sidebar-nav > .sidebar-brand a {
+    color: #999999;
+  }
+
+  .sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+  }
+
+  #menu-toggle {
+    top: 14px;
+    left: 6px;
+    position: fixed;
+    z-index: 1;
+}
+  #sidebar-wrapper.active {
+    left: -250px;
+    width: 250px;
+    transition: all 0.5s ease-out 0s;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+  }
+
+  .toggle {
+    margin: 5px 5px 0 0;
+    /************ togal button***********/
+   .toggle-buttonClose{
+   border-radius: 75%;
+    height: 39px
+    }
+    .glyphicon {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.menu a:hover {
-  margin-left: 1em;
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+.brand > span {
+    color: #ffc400;
 }
-
-.menu li {
-  box-shadow: 3px 0 rgba(52,152,219,.2) inset;
-  margin-bottom: 5px;
-  padding-left: .5em;
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-}
-#test {
-  background: rgba(41,128,185,1);
-  padding-right: .25em;
-  position: absolute;
-  left: -18em;
-  top: 0;
-  padding-top: 5em;
-  box-sizing: border-box;
-  z-index: 20;
-  height: 100%;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
-}
-
-#test.active { left: 0; }
+.brand{
+color: #fff !important;
+    font-size: 35px;
+    font-weight: bolder;  
+    loat: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+   
+      }
+                  
+      }
+      }
