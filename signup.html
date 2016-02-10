@@ -20,6 +20,7 @@
     <link id="orginal" href="css/yellow-theme.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="css/sign_up.css" rel="stylesheet">
+     <link href="css/myaccount.css" rel="stylesheet">
     <!-- Google fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
@@ -88,28 +89,28 @@
     <!--=========== End HEADER SECTION ================-->
     <!--=========== BEGIN USER SECTION ================-->
     <section id="user" class="sectionLogin">
-        <div class="container">
-            <div class="login-signup">
-                <div class="row padd-top">
-                    <div class="col-sm-9 nav-tab-holder">
-                        <ul class="nav nav-tabs row" role="tablist">
-                            <li role="presentation" class="active col-sm-6"><a href="#signupDriver" aria-controls="signupDriver" role="tab" data-toggle="tab">Driver</a></li>
-                            <li role="presentation" class="col-sm-6"><a href="#signupRider" aria-controls="signupRider" role="tab" data-toggle="tab">Rider</a></li>
-                            <li role="presentation" class="col-sm-6"><a href="#signupLimo" aria-controls="signuplimo" role="tab" data-toggle="tab">Limo Company</a></li>
+        <div class="container padd-top">
+    <div class="login-signup">
+      <div class="row">
+        <div class="col-sm-9 nav-tab-holder">
+        <ul class="nav nav-tabs row" role="tablist">
+          <li role="presentation" class="active col-sm-9"><a href="#signupDriver" aria-controls="signupDriver" role="tab" data-toggle="tab">Driver</a>
+          <li role="presentation" class="col-sm-9"><a href="#signupRider" aria-controls="signupRider" role="tab" data-toggle="tab">Rider</a></li>
+          <li role="presentation" class="col-sm-9"><a href="#signupLimo" aria-controls="signuplimo" role="tab" data-toggle="tab">Limo Company</a></li>
                         </ul>
-                    </div>
+      </div>
 
-                </div>
+      </div>
 
-                <!--- start of signupDriver ---->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="signupDriver">
-                        <div class="row">
 
-                            <div class="col-sm-9 mobile-pull">
-                                <article role="login">
-                                    <h3 class="text-center"><i class="fa fa-lock"></i> Driver</h3>
-                                    <form class="signup" action="index.html" method="post">
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="signupDriver">
+          <div class="row">
+
+            <div class="col-sm-9 mobile-pull">
+              <article role="login">
+                <h3 class="text-center"><i class="fa fa-lock"></i> Driver</h3>
+               <form class="signup" action="index.html" method="post">
                                         <div class="row">
                                             <div class="col-xs-12 col-md-12 form-group">
                                                 <input type="text" name="Referral" value="" class="form-control input-lg" placeholder="Your Referral" />
@@ -228,11 +229,12 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <input type="submit" class="btn btn-success btn-block" value="SUBMIT">
+                                            <input type="submit" class=" btn-success btn-block" value="SUBMIT">
                                         </div>
                                     </form>
 
-                                    <footer role="signup" class="text-center">
+
+                 <footer role="signup" class="text-center">
                                         <ul>
                                             <li>
                                                 <a href="#">Terms of Use</a>||<a href="#">Privacy Statement</a>
@@ -241,23 +243,22 @@
                                         </ul>
                                     </footer>
 
-                                </article>
-                            </div>
+              </article>
+            </div>
 
+           
+          </div>
+          <!-- end of row -->
+        </div>
+        <!-- end of SignupDriver -->
+<!-- SignupRider-->
+      <div role="tabpanel" class="tab-pane" id="signupRider">
+        <div class="row">
 
-
-                        </div>
-                        <!-- end of row -->
-                    </div>
-                    <!-- end of signupDriver -->
-                    <!-- start signupRider -->
-                    <div role="tabpanel" class="tab-pane active" id="signupRider">
-                        <div class="row">
-
-                            <div class="col-sm-9 mobile-pull">
-                                <article role="login">
-                                    <h3 class="text-center"><i class="fa fa-lock"></i> Create Rider Account</h3>
-                                    <form class="signup" action="index.html" method="post">
+          <div class="col-sm-9 mobile-pull">
+            <article role="login">
+              <h3 class="text-center"><i class="fa fa-lock"></i> Create Limo Company Account</h3>
+               <form class="signup" action="index.html" method="post">
                                         <div class="row">
                                             <div class="col-xs-12 col-md-12 form-group">
                                                 <input type="text" name="Referral" value="" class="form-control input-lg" placeholder="Your Referral" />
@@ -339,7 +340,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <input type="submit" class="btn btn-success btn-block" value="SUBMIT">
+                                            <input type="submit" class=" btn-success btn-block" value="SUBMIT">
                                         </div>
                                     </form>
 
@@ -351,23 +352,20 @@
 
                                         </ul>
                                     </footer>
+            </article>
+          </div>
 
-                                </article>
-                            </div>
+        
+        </div>
+      </div>
+      
+        <div role="tabpanel" class="tab-pane" id="signupLimo">
+        <div class="row">
 
-
-
-                        </div>
-                        <!-- end of row -->
-                    </div>
-                    <!-- end of signupRider -->
-                    <!-- start signupLimo -->
-                    <div role="tabpanel" class="tab-pane active" id="signupLimo">
-                        <div class="row">
-                            <div class="col-sm-9 mobile-pull">
-                                <article role="login">
-                                    <h3 class="text-center"><i class="fa fa-lock"></i> Create Limo Company Account</h3>
-                                    <form class="signup" action="index.html" method="post">
+          <div class="col-sm-9 mobile-pull">
+            <article role="login">
+              <h3 class="text-center"><i class="fa fa-lock"></i> Create Rider Account</h3>
+                <form class="signup" action="index.html" method="post">
                                         <div class="row">
                                             <div class="col-xs-12 col-md-12 form-group">
                                                 <input type="text" name="Referral" value="" class="form-control input-lg" placeholder="Your Referral" />
@@ -464,7 +462,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <input type="submit" class="btn btn-success btn-block" value="SUBMIT">
+                                            <input type="submit" class=" btn-success btn-block" value="SUBMIT">
                                         </div>
                                     </form>
 
@@ -477,18 +475,18 @@
                                         </ul>
                                     </footer>
 
-                                </article>
-                            </div>
+            </article>
+          </div>
 
-
-
-                        </div>
-                        <!-- end of row -->
-                    </div>
-                    <!-- end of signupLimo -->
-                </div>
-            </div>
+        
+        </div>
+      </div>
+  </div>
+  </div>
+  </div>
+  <!--@@@@@@@@@ End Container--@@@@@@@@@@@@@@---->
     </section>
+
 
 
 
@@ -497,14 +495,16 @@
     <!----@@@@@@@@@@ Side Bar Menu @@@@@@@@@@@@@@@@----->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <a class="navbar-brand" href="#">Kar <span>Hive</span>
+            <li class="test">
+                <a class="navbar-brand" href="#">Kar <span>Hive</span>
                                                                                                
                                                                                             </a>
-            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle">
-                <i class="glyphicon glyphicon-remove"></i>
+                <a id="menu-close" href="#" class="btn btn-default menu-close-h btn-lg pull-right toggle">
+                    <i class="fa fa-times  fa-close"></i>
 
-            </a>
 
+                </a>
+            </li>
             <li>
                 <a href="index.html">Home</a>
             </li>

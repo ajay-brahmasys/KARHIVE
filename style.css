@@ -40,7 +40,10 @@ h1,h2{
 h3,h4,h5,h6{
 	font-family: 'Varela', sans-serif;	
 }
-
+.img-width{
+	width:35px;
+	height:35px;
+}
 h2 {
   color: #313338;  
   font-size: 72px;
@@ -1583,6 +1586,15 @@ font-size:9px;
 }
 
 @media(max-width:767px ){
+	.media-heading{
+		font-size:12px!important;
+		padding-top: 11px!important;
+        padding-left: 12px!important;
+	}
+	.userLabel{
+		font-size:14px!important;
+		padding-bottom: 9px!important;
+	}
 	.navbar-collapse{background-color: rgba(0,0,0,0.8);} 
 	.main_nav{text-align: center;}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: rgba(0,0,0,0.5);}
@@ -1828,7 +1840,7 @@ font-size:9px;
  }
  
  .padd-top{
- 	padding-top: 140px;
+ 	padding-top: 60px;
  }
  
  

@@ -20,6 +20,8 @@
     <link id="orginal" href="css/yellow-theme.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="css/login.css" rel="stylesheet">
+     <link href="css/myaccount.css" rel="stylesheet">
+    <link href="css/sign_up.css" rel="stylesheet">
     <!-- Google fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
@@ -110,8 +112,9 @@
                                 <input type="password" class="form-control" name="password" placeholder="Password">
                             </div>
                             <span class="help-block">Password error</span>
-
-                            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+  <div class="form-group">
+                            <input type="submit" class="btn btn-success btn-block" value="LOGIN">
+                           </div>
                         </form>
                     </div>
                 </div>
@@ -135,18 +138,19 @@
 
 
 
-
     <!----@@@@@@@@@@ Side Bar Menu @@@@@@@@@@@@@@@@----->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <a class="navbar-brand" href="#">Kar <span>Hive</span>
+            <li class="test">
+                <a class="navbar-brand" href="#">Kar <span>Hive</span>
                                                                                                
                                                                                             </a>
-            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle">
-                <i class="glyphicon glyphicon-remove"></i>
+                <a id="menu-close" href="#" class="btn btn-default menu-close-h btn-lg pull-right toggle">
+                    <i class="fa fa-times  fa-close"></i>
 
-            </a>
 
+                </a>
+            </li>
             <li>
                 <a href="index.html">Home</a>
             </li>
@@ -277,6 +281,17 @@
     <script src="js/custom.js"></script>
     <script src="js/jPushMenu.js"></script>
     <script src="js/v2p.js"></script>
+    <script type="text/javascript">
+        //
+        < ![CDATA[
+                $(document).ready(function() {
+                    $('.toggle-menu').jPushMenu({
+                        closeOnClickLink: false
+                    });
+                    $('.dropdown-toggle').dropdown();
+                });
+                //]]>
+    </script>
     <script>
         $(document).ready(function() {
             $("#sidebar-wrapper").hide();
